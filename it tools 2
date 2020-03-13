@@ -1,0 +1,32 @@
+# !/usr/bin/python3  
+  
+from tkinter import *  
+  
+from tkinter import messagebox  
+  
+top = Tk()  
+#to show information message
+
+top.geometry("100x100")
+
+messagebox.showinfo("information","Information")
+
+#to show warning message
+
+top.geometry("100x100")
+
+messagebox.showwarning("warning","Warning")
+
+#to show error message
+
+top.geometry("100x100")
+
+messagebox.showerror("error","Error")
+
+#to show askquestion message
+
+top.geometry("100x100")
+
+messagebox.askquestion("Confirm","Are you sure?")
+
+top.mainloop()  
